@@ -27,19 +27,35 @@
   outline: none;
 }
 
-.shopping-list {
+.shopping-list-container{
   position: relative;
   width: 800px;
   top: 20px;
-  padding-top: 25px;
+  padding-top: 10px;
   background-color: rgb(62, 105, 68);
 }
 
+#one{
+  margin: 0px;
+}
+#two{
+  position: relative;
+  margin: 0px;
+  width: 800px;
+  top: 30px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  background-color: rgb(193, 8, 8);
+  overflow: hidden;
+  user-select: none;
+  z-index: 10;
+}
+
 .completed {
+  cursor: not-allowed;
   position: relative;
   width: 800px;
   top: 30px;
-  padding-top: 25px;
   box-sizing: border-box;
   background-color: rgb(197, 197, 197);
   overflow: hidden;
